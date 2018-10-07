@@ -12,4 +12,4 @@ The use of API’s was not a new topic for the group as we had some experience f
 
 A full report of the project can be found in the pdf attached to this repository where a more in-depth look into the sections of the project is presented.
 
-Also a list with the links of all the repositories where the app has been developed can be found in "Reposistory links.txt.
+Also a list with the links of all the repositories where the app has been developed can be found in "Repository links.txt.
