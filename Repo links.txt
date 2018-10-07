@@ -1,0 +1,8 @@
+Xamarin code
+https://github.com/HumboShot/Marnie/tree/handin
+Web API code
+https://github.com/Medicinmand/MarnieWebApi/tree/master
+React Native codes
+https://github.com/HumboShot/MarnieReactNative/tree/master
+Native Android code
+https://github.com/HumboShot/Marnie-Android/tree/master
