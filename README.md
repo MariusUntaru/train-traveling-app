@@ -11,3 +11,5 @@ We found out early in the process that we would need to run the API on an extern
 The use of API’s was not a new topic for the group as we had some experience from last semester where we learned, in a workshop, to work with restful API’s. We used some tutorials from internet[Ref 2] to get the idea how to build a Web API to communicate with the database in .Net framework. Beside that creating and using a Web API is very similar to a WCF service, which we learned and got experience with last semester.
 
 A full report of the project can be found in the pdf attached to this repository where a more in-depth look into the sections of the project is presented.
+
+Also a list with the links of all the repositories where the app has been developed can be found in "Reposistory links.txt.
