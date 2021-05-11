@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+    android:id="@+id/fromTo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/stringFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/list_fields"
+        android:text="@string/from" />
+
+    <TextView
+        android:id="@+id/stationFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/list_fields"
+        android:layout_toRightOf="@id/stringFrom"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/stringTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/list_fields"
+        android:layout_toRightOf="@+id/stationFrom"
+        android:text="@string/to" />
+
+    <TextView
+        android:id="@+id/stationTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/stringTo"
+        android:text="TextView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/fromTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/route_Departure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/list_fields"
+        android:text="@string/departure" />
+
+    <TextView
+        android:id="@+id/departureTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/list_fields"
+        android:layout_toRightOf="@id/route_Departure"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/arrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/list_fields"
+        android:layout_toRightOf="@+id/departureTime"
+        android:text="@string/arrivalTime" />
+
+    <TextView
+        android:id="@+id/arrivalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/arrival"
+        android:text="TextView" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/personInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/personNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/list_fields"
+            android:text="@string/personName" />
+
+        <TextView
+            android:id="@+id/personName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/list_fields"
+            android:layout_toRightOf="@id/personNameLabel"
+            android:text="Waldo" />
+
+        <TextView
+            android:id="@+id/personAgeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/list_fields"
+            android:layout_toRightOf="@+id/personName"
+            android:text="@string/age" />
+
+        <TextView
+            android:id="@+id/personAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/list_fields"
+            android:layout_toRightOf="@+id/personAgeLabel"
+            android:hint="26" />
+
+        <TextView
+            android:id="@+id/personGenderLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/list_fields"
+            android:layout_toRightOf="@+id/personAge"
+            android:text="@string/gender" />
+
+        <TextView
+            android:id="@+id/personGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/personGenderLabel"
+            android:hint="M" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/peopleFromTo"
+        android:layout_below="@+id/personInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/peopleLabelFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/list_fields"
+            android:text="@string/from" />
+
+        <TextView
+            android:id="@+id/peopleStationFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/list_fields"
+            android:layout_toRightOf="@id/peopleLabelFrom"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/peopleLabelTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/list_fields"
+            android:layout_toRightOf="@+id/peopleStationFrom"
+            android:text="@string/to" />
+
+        <TextView
+            android:id="@+id/peopleStationTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/peopleLabelTo"
+            android:text="TextView" />
+    </RelativeLayout>
+</RelativeLayout>
